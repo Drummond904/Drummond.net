@@ -1,0 +1,36 @@
+body {
+background-image: url("graphics.jpeg");
+background-repeat: repeat;
+background-color: white;
+color: #404040;
+}
+
+
+p {
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 16pt;
+}
+
+
+h1{
+font-family: sans-serif, Times New Roman, serif;
+text-align: center;
+text-decoration: underline;
+font-weight: bold;
+font-size: 24pt;
+color: white;
+}
+
+#accomp{
+color: white;
+text-align: center;
+font-size: 16pt;
+
+}
+
+h2{
+
+text-align: center;
+}

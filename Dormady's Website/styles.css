@@ -1,0 +1,36 @@
+body {
+background-image: url("13391-1.jpg");
+background-repeat: repeat;
+background-color: white;
+color: #404040;
+}
+
+p {
+color: black;
+}
+
+ 
+h1{
+font-family: sans-serif, Times New Roman, serif;
+color: white;
+text-align: center;
+text-decoration: underline;
+font-weight: bold;
+font-size: 30pt;
+}
+ 
+ 
+
+h2 { 
+font-family: sans-serif, Times New Roman, serif;
+color: blue;
+text-align: left;
+text-decoration:underline;
+font-size: 18pt;
+} 
+
+#courseList {
+border: 2px solid purple;
+background-color: silver;
+        }
+ 

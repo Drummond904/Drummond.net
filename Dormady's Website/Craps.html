@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Craps</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <script type="text/javascript">
+      <!--
+       var message, d1, d2, point;
+	   
+	   function setup()
+	   {
+	      message = document.getElementById( "message" );
+	      d1 = document.getElementById( "die1" );
+	      d2 = document.getElementById("die2" );
+	      point = 0;  
+	   }
+	   function rollDice()
+	   {
+	    var d1 = roll();
+		var d2 = roll();
+		
+		
+		die1.src = d1 + ".jpg";
+		die2.src = d2 + ".jpg";
+	   
+	    if( point == 0)
+		{
+		  if(d1 + d2 == 7 || d1 + d2 == 11 )
+		  {
+		   message.innerHTML = "Winner!"; 
+		  }
+		
+		 else if(d1 + d2 == 2 || d1 + d2 == 3 || d1 + d2 == 12 )
+		 {
+		  message.innerHTML = "Lose!";
+		 }
+		 else 
+		 {
+		  point = d1 + d2;
+		  message.innerHTML = "Point is " + point + " Roll again";
+		  
+		 }
+		
+		}
+		
+	   }
+	
+	   function roll()
+	   {
+	     return Math.floor( Math.random() * 6 + 1);
+	   }
+	   
+	  // --> 
+	</script>
+  </head>
+  <body onload="setup();">
+    <table style="text-align: center;">
+      <tr>
+	  <td colspan="2"><span style="font-size: 2em;"><a href="home.html" >
+ <img src="d2.jpeg" /></br> Craps</span></td>
+      </tr>
+	  <tr>
+        <td><img id="die1" alt="Die 1" src="0.jpg" /></td>
+        <td><img id="die2" alt="Die 2" src="0.jpg" /></td>
+      </tr>
+      <tr>
+        <td colspan="2"><span id="message" style="color: red;">Click Roll Dice button to play.</span></td>
+      </tr>
+      <tr>
+        <td colspan="2"><a href="javascript:rollDice();"><img src="RollDice.jpg" alt="Roll Dice" border=0 /></td>
+      </tr>
+    </table>
+  </body>
+</html>

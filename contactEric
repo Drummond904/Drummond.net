@@ -1,0 +1,23 @@
+<head>
+<title>Eric Drummond</title>
+<link href="homePage.css" type="text/css" rel="stylesheet" />
+</head>
+<div id="top"> <h1>Welcome to Drummond.net!</h1><form class="search"><input type="text" placeholder="Search..." required>
+      <input type="button" value="Search"></form>
+<nav>
+<ul class="nav">
+<li><div id="button1"><a href="eric.html">Home</a></div></li>  <li><div id="button1"><a href="aboutEric.html">About Me</a></div></li><li><div id="button1"><a href="SampleProjects.html">SampleProjects</a></div></li> 
+<li><div id="button1"><a href="ContactEric.html">Contact Me</a></div></li>  <li><div id="button1"><a href="drummondBlog.html">Blog</a></div></li></ul>
+</nav>
+</div>
+<body>
+<h2>Do you need help?</h2>
+<p>Do you find yourself in need of a Web Developer? If so feel free to send me an email at 
+   <a href="mailto:edrummo@jacksonville.edu">edrummo@jacksonville.edu</a> and I will be glad to lend you my services. As far as what my rates are, rates 
+   are discussable. I'll be waiting.</p>
+<h3><img alt="farewell" src="farewell.jpg" height="200" width="200"></h3>
+<p>Feel free to follow me on Twitter <a href="https://twitter.com/drummondMVP">@drummondMVP</a> and remember to keep up with my blog for both
+   computer and non-computer related topics.</p></body>
+<div id="footer">©Eric Drummond | Follow me on Twitter <a href="https://twitter.com/drummondMVP">@drummondMVP</a> | 
+Email at <a href="mailto:edrummo@jacksonville.edu">edrummo@jacksonville.edu</a><img alt="sonic" src="sonic.gif" height="28" width="35">
+</div>

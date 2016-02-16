@@ -28,19 +28,16 @@ p{margin-left: 30px;
 	 background-color: black;}
 nav{border: 2px solid;
 	background-color:gold;
-<<<<<<< HEAD
 	width: 84.7em;
 	}
-=======
-	width: 84.7em;}
->>>>>>> origin/master
+
 #footer{border-top: 2px solid;
 		position: fixed;
 		bottom:0;
 		width:100%;
 		color: gold;
 		background-color: black;}
-<<<<<<< HEAD
+
 		
 #button1{
         -webkit-animation-name: redPulse;
@@ -62,8 +59,6 @@ nav{border: 2px solid;
         50% { background-color: #B700D9; -webkit-box                     -shadow: 0 0 18px #91bd09; }
         to { background-color: #FF1439; -webkit-box-shadow: 0 0               9px #333; }
 }		
-=======
->>>>>>> origin/master
 .zero{float: right;}
 .search{text-align:right;}
 .vegeta{float: left;}
@@ -72,7 +67,6 @@ nav{border: 2px solid;
 .entryTitle{border: 1px solid}
 .enter{text-align: center;
        border: 1px solid}
-<<<<<<< HEAD
 	   
 .pic{background-color: gray;
          height:35px;
@@ -84,5 +78,3 @@ nav{border: 2px solid;
          transition: all 0.5s;
          cursor: pointer;
          }
-=======
->>>>>>> origin/master
